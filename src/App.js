@@ -12,7 +12,7 @@ const state = 'state=security_token%3D138r5719ru3e1%26url%3Dhttps%3A%2F%2Foauth2
 const login_hint = 'login_hint=jsmith@example.com';
 const hd = 'hd=example.com';
 
-let loginWithGoogleUrl = `${host}${path}?${resptype}&${clientid}&${redirect}&${state}&${login_hint}&${nonce}&${hd}&scope=`;
+let loginWithGoogleUrl = `${host}${path}?${resptype}&${clientid}&${redirect}&${state}&${login_hint}&${hd}&scope=`;
 scopes.forEach(scope => {
   loginWithGoogleUrl += `${scope}%20`;
 });
