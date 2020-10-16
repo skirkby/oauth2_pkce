@@ -6,11 +6,10 @@ const host = 'https://accounts.google.com';
 const path = '/o/oauth2/v2/auth';
 const resptype = 'response_type=code';
 const clientid = 'client_id=424911365001.apps.googleusercontent.com';
-const scopes = ['openid', 'email'];
+const scopes = ['openid', 'email', 'profile'];
 const redirect = 'redirect_uri=https%3A//oauth2.example.com/code';
 const state = 'state=security_token%3D138r5719ru3e1%26url%3Dhttps%3A%2F%2Foauth2-login-demo.example.com%2FmyHome';
 const login_hint = 'login_hint=jsmith@example.com';
-const nonce = 'nonce=0394852-3190485-2490358';
 const hd = 'hd=example.com';
 
 let loginWithGoogleUrl = `${host}${path}?${resptype}&${clientid}&${redirect}&${state}&${login_hint}&${nonce}&${hd}&scope=`;
