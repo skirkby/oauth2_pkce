@@ -32,14 +32,17 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
-        <header className="App-header">
-          <p>Login:</p>
-          <button onClick={openGoogleUrl}>Login with Google</button>
-        </header>
-      </div>
+
 
       <Switch>
+        <Route path="/">
+          <div className="App">
+            <header className="App-header">
+              <p>Login:</p>
+              <button onClick={openGoogleUrl}>Login with Google</button>
+            </header>
+          </div>
+        </Route>
         <Route path="/oauthcallback">
           <CodePanel />
         </Route>
