@@ -6,7 +6,7 @@
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
         "client_secret": "UWgcdYAKZhX0L23md86idvnh",
-        "redirect_uris": ["https://oauth-webapp.heroku.com/oauthcallback"],
-        "javascript_origins": ["https://oauth-webapp.heroku.com"]
+        "redirect_uris": ["https://oauth-webapp.herokuapp.com/oauthcallback"],
+        "javascript_origins": ["https://oauth-webapp.herokuapp.com"]
     }
 }
